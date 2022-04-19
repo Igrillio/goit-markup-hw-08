@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EACF,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;EACZ,YAAY,EAAE,IAAI;CAKrB;;AAHI,AAAD,cAAU,CAAC;EACP,KAAK,EAAC,OAAO;CAChB",
+    "sources": [
+        "components.scss",
+        "_logo.scss"
+    ],
+    "names": [],
+    "file": "components.css"
+}

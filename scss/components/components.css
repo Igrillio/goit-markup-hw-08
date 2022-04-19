@@ -1,0 +1,13 @@
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  margin-right: 43px;
+}
+
+.logo__colored {
+  color: #2196F3;
+}
+/*# sourceMappingURL=components.css.map */

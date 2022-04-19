@@ -1,0 +1,38 @@
+.special {
+    padding: 94px 0;
+
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__icon {
+        width: 70px;
+        height: 70px;
+        padding: 25px 100px;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+    
+    &__header {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+        margin-bottom: 10px;
+    }
+    
+    &__text {
+        font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em; 
+        color: #757575;
+        max-width: 270px;      
+    }
+    
+}
