@@ -13,11 +13,65 @@
     <link rel="stylesheet" href="./scss/main.css">
 </head>
 <body>
-    <!--Heaeder container-->
+    <!--HEADER CONTAINER-->
     <header class="header">
-        <div class="container header__container">     
+        <div class="container header__container">
+           
+            <a href="./index.html" class="logo"><span class="logo__colored">Web</span>Studio </a>
+
+            <!-- ------------BURGER BUTTON--------------- -->
+
+            <div class="header__btn" data-menu-button>
+                <span class="header__btn-line"></span>
+                <span class="header__btn-line"></span>
+                <span class="header__btn-line"></span>
+            </div> 
+            <!-----------------MOB MENU-------------------->
+
+            <div class="mob-menu" id="mobile-menu" data-menu>
+                <ul class="mob-menu__nav">
+                    <li class="mob-menu__nav-item">
+                        <a href="./index.html" class="mob-menu__nav-link">Студия</a>
+                    </li>
+                    <li class="mob-menu__nav-item">
+                        <a href="./portfolio.html" class="mob-menu__nav-link">Портфолио</a>
+                    </li>
+                    <li class="mob-menu__nav-item">
+                        <a href="#" class="mob-menu__nav-link">Контакты</a>
+                    </li> 
+                </ul>
+                <div>
+                    <ul class="mob-menu__contacts">
+                        <li class="mob-menu__contacts-item">
+                            <a href="" class="mob-menu__contacts-tel">+38 096 111 11 11</a>
+                        </li>
+                        <li class="mob-menu__contacts-item" >
+                            <a href="" class="mob-menu__contacts-mail">info@devstudio.com</a>
+                        </li>
+                        
+                    </ul>
+                
+                    <ul class="mob-menu__socials">
+                        <li class="mob-menu__socials-item">
+                        <a href="" class="mob-menu__socials-link">Instagram</a>  
+                        </li>
+                        <li class="mob-menu__socials-item">
+                            <a href="" class="mob-menu__socials-link">Twitter</a>
+                        </li>
+                        <li class="mob-menu__socials-item">
+                            <a href="" class="mob-menu__socials-link">Facebook</a>
+                        </li>
+                        <li class="mob-menu__socials-item">
+                            <a href="" class="mob-menu__socials-link">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+            
+            <!-- ----------DESCTOP---------- -->
+
             <nav class="header__navigation">   
-                <a href="./index.html" class="logo"><span class="logo__colored">Web</span>Studio </a> 
+                 
                 <ul class="header__menu">
                     <li class="header__menu-item underline"><a href="./index.html" class="header__menu-link header_active">Студия</a> </li>
                     <li class="header__menu-item"><a href="./portfolio.html" class="header__menu-link">Портфолио</a> </li>
@@ -45,7 +99,7 @@
 
     <!--HERO-->
 
-    <main>
+    <!-- <main>
         <section class="hero">
             <div class="container">
                 <h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
@@ -132,10 +186,10 @@
                 </ul>
             </div> 
         </section>
-        
+         -->
         <!--Company occupation-->
 
-         <section class="business">
+         <!-- <section class="business">
             <div class="container">
                
               <h2 class="business__header">Чем мы занимаемся</h2>
@@ -161,9 +215,9 @@
                     </li>
                 </ul>         
             </div>
-        </section>
+        </section> -->
         <!--Our comand-->
-        <section class="our-team">
+        <!-- <section class="our-team">
             <div class="container">
               <h2 class="our-team__header">Наша команда</h2>
                 <ul class="our-team__list">
@@ -355,9 +409,9 @@
                 </ul>
             </div>
         </section>
-    </main>
+    </main> -->
     <!--Footer-->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container footer__flex">  
             <div class="footer__box">
                 <a href="./index.html" class="footer__logo"><span class="footer__logo-colored">Web</span>Studio</a>
@@ -417,6 +471,7 @@
         </div>  
         
     </footer>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/menu.js"></script>
 </body>
 </html> 
