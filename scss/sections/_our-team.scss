@@ -1,6 +1,32 @@
 .our-team {
     background: #F5F4FA; 
-    padding: 94px 0; 
+   
+
+    @media (max-width: 480px) {
+        padding: 60px 15px;
+
+        &__item {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 1200px) {
+        padding: 60px 15px;
+
+        &__item {
+            width: calc(50% - 15px);
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (min-width: 1201px) {
+        padding: 94px 0; 
+
+        &__item {
+            width: 270px;
+        }
+    }
     
     &__header{
         font-weight: 700;
@@ -15,6 +41,7 @@
     &__list {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     &__item {
@@ -76,7 +103,11 @@
         fill: #AFB1B8;
         transition: 0.4s;
         
-    }   
+    }  
+    
+    &__img {
+        width: 100%;
+    }
     
 
 }

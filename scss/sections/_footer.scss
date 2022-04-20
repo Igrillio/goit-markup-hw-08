@@ -1,13 +1,46 @@
 .footer {
     background-color: #2F303A;
-    padding: 60px 0;
+    padding: 60px 15px;
+
+    @media (max-width: 1200px) {
+
+        &__flex {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__box {
+            margin-bottom: 60px;
+        }
+
+        &__contact-box {
+            margin-bottom: 60px;
+        }
+
+        &__form {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &__title {
+            text-align: center;
+        }
+
+        &__form-input {
+            margin-bottom: 20px;
+        }
+
+
+    }
 
     &__flex {
         display: flex;
+       justify-content: space-between; 
     }
 
     &__box {
-        margin-right: 70px;
+        // margin-right: 70px;
         width: 230px;
     }
 
@@ -60,7 +93,7 @@
 
     &__contact-box {
         padding-top: 12px;
-        margin-right: 93px;
+        // margin-right: 93px;
     }
     
     &__title {
